@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { NavLinks } from "@/src/components/NavLinks";
+import { NavLinks } from "./NavLinks";
 
 export function Header() {
   return (
