@@ -13,7 +13,7 @@ const Home: React.FC = () => {
 
       <div className="container mx-auto py-8">
         <div className="max-w-4xl mx-auto mb-8">
-          <Image src={companyImage} alt="Company" className="w-full rounded-lg" />
+          <Image src={companyImage} alt="Company" className="w-full rounded-lg" width={1000} height={500}/>
         </div>
 
         <h2 className="text-3xl font-semibold mb-4">Featured Products</h2>
