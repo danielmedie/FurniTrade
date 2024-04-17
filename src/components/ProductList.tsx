@@ -5,9 +5,9 @@ import Product1 from '../images/runt-soffbord-design_grande.jpg';
 
 const ProductList: React.FC = () => {
   const products = [
-    { id: 1, name: 'Product 1', description: 'Description of Product 1', price: 19.99, image: Product1, width: 400, height: 300 },
-    { id: 2, name: 'Product 2', description: 'Description of Product 2', price: 29.99, image: Product1, width: 600, height: 450 },
-    { id: 3, name: 'Product 3', description: 'Description of Product 3', price: 39.99, image: Product1, width: 500, height: 350 }
+    { id: 1, name: 'Produkt 1', description: 'Beskrivning av Produkt 1', price: 199, image: Product1, width: 400, height: 350 },
+    { id: 2, name: 'Produkt 2', description: 'Beskrivning av Product 2', price: 299, image: Product1, width: 400, height: 350 },
+    { id: 3, name: 'Produkt 3', description: 'Beskrivning av Product 3', price: 399, image: Product1, width: 400, height: 350 }
   ];
 
   return (

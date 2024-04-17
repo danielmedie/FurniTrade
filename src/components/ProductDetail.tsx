@@ -3,10 +3,10 @@ import React from 'react';
 const ProductDetail: React.FC = () => {
   return (
     <div className="product-detail">
-      <h2>Product Name</h2>
-      <p>Description of the product goes here.</p>
-      <p>Price: $99.99</p>
-      <button>Add to Cart</button>
+      <h2>Produkt namn</h2>
+      <p>Produktbeskrivning</p>
+      <p>Pris: 99kr</p>
+      <button>Lägg till</button>
     </div>
   );
 };
